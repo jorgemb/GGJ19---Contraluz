@@ -1,0 +1,402 @@
+fileFormatVersion: 2
+guid: 2ac7713b673682e47936be94c175032c
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: '3D View: {3D}'
+    100002: Assembled Stair Stair [394062]
+    100004: Assembled Stair Stair [394456]
+    100006: "Basic Roof Gen\xE9rico - 150 mm [395566]"
+    100008: "Basic Wall Gen\xE9rico - 200 mm [378571]"
+    100010: "Basic Wall Gen\xE9rico - 200 mm [378660]"
+    100012: "Basic Wall Gen\xE9rico - 200 mm [378700]"
+    100014: "Basic Wall Gen\xE9rico - 200 mm [378742]"
+    100016: "Basic Wall Gen\xE9rico - 200 mm [378778]"
+    100018: "Basic Wall Gen\xE9rico - 200 mm [394928]"
+    100020: //RootNode
+    100022: Fija 6 Paneles 1200 x 1500 mm [393598]
+    100024: Fija 6 Paneles 1200 x 1500 mm [393668]
+    100026: Floor 10 cm garage [394970]
+    100028: Floor 15 cm int [391336]
+    100030: Floor 15 cm mad [391303]
+    100032: Floor 15 cm mad [394549]
+    100034: M_Door-Opening 0915 x 2134mm [383082]
+    100036: M_Door-Opening 0915 x 2134mm [391088]
+    100038: M_Door-Opening 0915 x 2134mm [391119]
+    100040: M_Door-Opening 0915 x 2134mm [391182]
+    100042: M_Door-Opening 0915 x 2134mm [395080]
+    100044: M_Door-Opening 0915 x 2134mm [395081]
+    100046: M_Sliding with Trim 0915 x 1220mm [392282]
+    100048: M_Sliding with Trim 0915 x 1220mm [392328]
+    100050: M_Sliding with Trim 0915 x 1220mm [392395]
+    100052: M_Sliding with Trim 0915 x 1220mm [392585]
+    100054: M_Sliding with Trim 0915 x 1220mm [392618]
+    100056: M_Sliding with Trim 0915 x 1220mm [392711]
+    100058: M_Sliding with Trim 0915 x 1220mm [395052]
+    100060: M_Sliding with Trim 0915 x 1220mm [395053]
+    100062: M_Sliding with Trim 0915 x 1220mm [395054]
+    100064: M_Sliding with Trim 0915 x 1220mm [395055]
+    100066: M_Sliding with Trim 0915 x 1220mm [395056]
+    100068: M_Sliding with Trim 0915 x 1220mm [395057]
+    100070: M_Sliding with Trim 0915 x 1220mm [395134]
+    100072: M_Sliding with Trim 0915 x 1220mm [395227]
+    100074: M_Sliding with Trim 0915 x 1220mm [395529]
+    100076: M_Sliding with Trim 0915 x 1220mm [395530]
+    100078: M_Sliding with Trim 0915 x 1220mm [395562]
+    100080: M_Sliding with Trim 0915 x 1220mm [395563]
+    100082: Railing Cast Iron - Key Clamp Railing [394098]
+    100084: Railing Cast Iron - Key Clamp Railing [394098]_[199136]
+    100086: Railing Cast Iron - Key Clamp Railing [394098]_[394226]
+    100088: Railing Cast Iron - Key Clamp Railing [394098]_[394307]
+    100090: Railing Cast Iron - Key Clamp Railing [394098]_[394309]
+    100092: Railing Cast Iron - Key Clamp Railing [394102]
+    100094: Railing Cast Iron - Key Clamp Railing [394102]_[199136]
+    100096: Railing Cast Iron - Key Clamp Railing [394102]_[394226]
+    100098: Railing Cast Iron - Key Clamp Railing [394102]_[394307]
+    100100: Railing Cast Iron - Key Clamp Railing [394102]_[394309]
+    100102: Railing Cast Iron - Key Clamp Railing [395636]
+    100104: Railing Cast Iron - Key Clamp Railing [395636]_[199136]
+    100106: Railing Cast Iron - Key Clamp Railing [395636]_[199136] 1
+    100108: Railing Cast Iron - Key Clamp Railing [395636]_[199136] 2
+    100110: Railing Cast Iron - Key Clamp Railing [395636]_[199136] 3
+    100112: Railing Cast Iron - Key Clamp Railing [395954]
+    100114: Railing Cast Iron - Key Clamp Railing [395954]_[199136]
+    100116: Railing Cast Iron - Key Clamp Railing [395954]_[199136] 1
+    100118: Railing Cast Iron - Key Clamp Railing [395954]_[199136] 2
+    100120: Railing Cast Iron - Key Clamp Railing [395954]_[199136] 3
+    100122: Railing Cast Iron - Key Clamp Railing [395954]_[199136] 4
+    100124: Railing Cast Iron - Key Clamp Railing [395954]_[199136] 5
+    100126: Railing Cast Iron - Key Clamp Railing [396122]
+    100128: Railing Cast Iron - Key Clamp Railing [396122]_[199136]
+    100130: Railing Cast Iron - Key Clamp Railing [396122]_[199136] 1
+    100132: Railing Cast Iron - Key Clamp Railing [396122]_[199136] 2
+    100134: Railing Cast Iron - Key Clamp Railing [396122]_[199136] 3
+    100136: Railing Cast Iron - Key Clamp Railing [396122]_[199136] 4
+    100138: Railing Cast Iron - Key Clamp Railing [396122]_[199136] 5
+    100140: Railing Cast Iron - Key Clamp Railing [396122]_[199136] 6
+    100142: Railing Cast Iron - Key Clamp Railing [396122]_[199136] 7
+    400000: '3D View: {3D}'
+    400002: Assembled Stair Stair [394062]
+    400004: Assembled Stair Stair [394456]
+    400006: "Basic Roof Gen\xE9rico - 150 mm [395566]"
+    400008: "Basic Wall Gen\xE9rico - 200 mm [378571]"
+    400010: "Basic Wall Gen\xE9rico - 200 mm [378660]"
+    400012: "Basic Wall Gen\xE9rico - 200 mm [378700]"
+    400014: "Basic Wall Gen\xE9rico - 200 mm [378742]"
+    400016: "Basic Wall Gen\xE9rico - 200 mm [378778]"
+    400018: "Basic Wall Gen\xE9rico - 200 mm [394928]"
+    400020: //RootNode
+    400022: Fija 6 Paneles 1200 x 1500 mm [393598]
+    400024: Fija 6 Paneles 1200 x 1500 mm [393668]
+    400026: Floor 10 cm garage [394970]
+    400028: Floor 15 cm int [391336]
+    400030: Floor 15 cm mad [391303]
+    400032: Floor 15 cm mad [394549]
+    400034: M_Door-Opening 0915 x 2134mm [383082]
+    400036: M_Door-Opening 0915 x 2134mm [391088]
+    400038: M_Door-Opening 0915 x 2134mm [391119]
+    400040: M_Door-Opening 0915 x 2134mm [391182]
+    400042: M_Door-Opening 0915 x 2134mm [395080]
+    400044: M_Door-Opening 0915 x 2134mm [395081]
+    400046: M_Sliding with Trim 0915 x 1220mm [392282]
+    400048: M_Sliding with Trim 0915 x 1220mm [392328]
+    400050: M_Sliding with Trim 0915 x 1220mm [392395]
+    400052: M_Sliding with Trim 0915 x 1220mm [392585]
+    400054: M_Sliding with Trim 0915 x 1220mm [392618]
+    400056: M_Sliding with Trim 0915 x 1220mm [392711]
+    400058: M_Sliding with Trim 0915 x 1220mm [395052]
+    400060: M_Sliding with Trim 0915 x 1220mm [395053]
+    400062: M_Sliding with Trim 0915 x 1220mm [395054]
+    400064: M_Sliding with Trim 0915 x 1220mm [395055]
+    400066: M_Sliding with Trim 0915 x 1220mm [395056]
+    400068: M_Sliding with Trim 0915 x 1220mm [395057]
+    400070: M_Sliding with Trim 0915 x 1220mm [395134]
+    400072: M_Sliding with Trim 0915 x 1220mm [395227]
+    400074: M_Sliding with Trim 0915 x 1220mm [395529]
+    400076: M_Sliding with Trim 0915 x 1220mm [395530]
+    400078: M_Sliding with Trim 0915 x 1220mm [395562]
+    400080: M_Sliding with Trim 0915 x 1220mm [395563]
+    400082: Railing Cast Iron - Key Clamp Railing [394098]
+    400084: Railing Cast Iron - Key Clamp Railing [394098]_[199136]
+    400086: Railing Cast Iron - Key Clamp Railing [394098]_[394226]
+    400088: Railing Cast Iron - Key Clamp Railing [394098]_[394307]
+    400090: Railing Cast Iron - Key Clamp Railing [394098]_[394309]
+    400092: Railing Cast Iron - Key Clamp Railing [394102]
+    400094: Railing Cast Iron - Key Clamp Railing [394102]_[199136]
+    400096: Railing Cast Iron - Key Clamp Railing [394102]_[394226]
+    400098: Railing Cast Iron - Key Clamp Railing [394102]_[394307]
+    400100: Railing Cast Iron - Key Clamp Railing [394102]_[394309]
+    400102: Railing Cast Iron - Key Clamp Railing [395636]
+    400104: Railing Cast Iron - Key Clamp Railing [395636]_[199136]
+    400106: Railing Cast Iron - Key Clamp Railing [395636]_[199136] 1
+    400108: Railing Cast Iron - Key Clamp Railing [395636]_[199136] 2
+    400110: Railing Cast Iron - Key Clamp Railing [395636]_[199136] 3
+    400112: Railing Cast Iron - Key Clamp Railing [395954]
+    400114: Railing Cast Iron - Key Clamp Railing [395954]_[199136]
+    400116: Railing Cast Iron - Key Clamp Railing [395954]_[199136] 1
+    400118: Railing Cast Iron - Key Clamp Railing [395954]_[199136] 2
+    400120: Railing Cast Iron - Key Clamp Railing [395954]_[199136] 3
+    400122: Railing Cast Iron - Key Clamp Railing [395954]_[199136] 4
+    400124: Railing Cast Iron - Key Clamp Railing [395954]_[199136] 5
+    400126: Railing Cast Iron - Key Clamp Railing [396122]
+    400128: Railing Cast Iron - Key Clamp Railing [396122]_[199136]
+    400130: Railing Cast Iron - Key Clamp Railing [396122]_[199136] 1
+    400132: Railing Cast Iron - Key Clamp Railing [396122]_[199136] 2
+    400134: Railing Cast Iron - Key Clamp Railing [396122]_[199136] 3
+    400136: Railing Cast Iron - Key Clamp Railing [396122]_[199136] 4
+    400138: Railing Cast Iron - Key Clamp Railing [396122]_[199136] 5
+    400140: Railing Cast Iron - Key Clamp Railing [396122]_[199136] 6
+    400142: Railing Cast Iron - Key Clamp Railing [396122]_[199136] 7
+    2000000: '3D View: {3D}'
+    2100000: No Name
+    2300000: Assembled Stair Stair [394062]
+    2300002: Assembled Stair Stair [394456]
+    2300004: "Basic Roof Gen\xE9rico - 150 mm [395566]"
+    2300006: "Basic Wall Gen\xE9rico - 200 mm [378571]"
+    2300008: "Basic Wall Gen\xE9rico - 200 mm [378660]"
+    2300010: "Basic Wall Gen\xE9rico - 200 mm [378700]"
+    2300012: "Basic Wall Gen\xE9rico - 200 mm [378742]"
+    2300014: "Basic Wall Gen\xE9rico - 200 mm [378778]"
+    2300016: "Basic Wall Gen\xE9rico - 200 mm [394928]"
+    2300018: Fija 6 Paneles 1200 x 1500 mm [393598]
+    2300020: Fija 6 Paneles 1200 x 1500 mm [393668]
+    2300022: Floor 10 cm garage [394970]
+    2300024: Floor 15 cm int [391336]
+    2300026: Floor 15 cm mad [391303]
+    2300028: Floor 15 cm mad [394549]
+    2300030: M_Door-Opening 0915 x 2134mm [383082]
+    2300032: M_Door-Opening 0915 x 2134mm [391088]
+    2300034: M_Door-Opening 0915 x 2134mm [391119]
+    2300036: M_Door-Opening 0915 x 2134mm [391182]
+    2300038: M_Door-Opening 0915 x 2134mm [395080]
+    2300040: M_Door-Opening 0915 x 2134mm [395081]
+    2300042: M_Sliding with Trim 0915 x 1220mm [392282]
+    2300044: M_Sliding with Trim 0915 x 1220mm [392328]
+    2300046: M_Sliding with Trim 0915 x 1220mm [392395]
+    2300048: M_Sliding with Trim 0915 x 1220mm [392585]
+    2300050: M_Sliding with Trim 0915 x 1220mm [392618]
+    2300052: M_Sliding with Trim 0915 x 1220mm [392711]
+    2300054: M_Sliding with Trim 0915 x 1220mm [395052]
+    2300056: M_Sliding with Trim 0915 x 1220mm [395053]
+    2300058: M_Sliding with Trim 0915 x 1220mm [395054]
+    2300060: M_Sliding with Trim 0915 x 1220mm [395055]
+    2300062: M_Sliding with Trim 0915 x 1220mm [395056]
+    2300064: M_Sliding with Trim 0915 x 1220mm [395057]
+    2300066: M_Sliding with Trim 0915 x 1220mm [395134]
+    2300068: M_Sliding with Trim 0915 x 1220mm [395227]
+    2300070: M_Sliding with Trim 0915 x 1220mm [395529]
+    2300072: M_Sliding with Trim 0915 x 1220mm [395530]
+    2300074: M_Sliding with Trim 0915 x 1220mm [395562]
+    2300076: M_Sliding with Trim 0915 x 1220mm [395563]
+    2300078: Railing Cast Iron - Key Clamp Railing [394098]
+    2300080: Railing Cast Iron - Key Clamp Railing [394098]_[199136]
+    2300082: Railing Cast Iron - Key Clamp Railing [394098]_[394226]
+    2300084: Railing Cast Iron - Key Clamp Railing [394098]_[394307]
+    2300086: Railing Cast Iron - Key Clamp Railing [394098]_[394309]
+    2300088: Railing Cast Iron - Key Clamp Railing [394102]
+    2300090: Railing Cast Iron - Key Clamp Railing [394102]_[199136]
+    2300092: Railing Cast Iron - Key Clamp Railing [394102]_[394226]
+    2300094: Railing Cast Iron - Key Clamp Railing [394102]_[394307]
+    2300096: Railing Cast Iron - Key Clamp Railing [394102]_[394309]
+    2300098: Railing Cast Iron - Key Clamp Railing [395636]
+    2300100: Railing Cast Iron - Key Clamp Railing [395636]_[199136]
+    2300102: Railing Cast Iron - Key Clamp Railing [395636]_[199136] 1
+    2300104: Railing Cast Iron - Key Clamp Railing [395636]_[199136] 2
+    2300106: Railing Cast Iron - Key Clamp Railing [395636]_[199136] 3
+    2300108: Railing Cast Iron - Key Clamp Railing [395954]
+    2300110: Railing Cast Iron - Key Clamp Railing [395954]_[199136]
+    2300112: Railing Cast Iron - Key Clamp Railing [395954]_[199136] 1
+    2300114: Railing Cast Iron - Key Clamp Railing [395954]_[199136] 2
+    2300116: Railing Cast Iron - Key Clamp Railing [395954]_[199136] 3
+    2300118: Railing Cast Iron - Key Clamp Railing [395954]_[199136] 4
+    2300120: Railing Cast Iron - Key Clamp Railing [395954]_[199136] 5
+    2300122: Railing Cast Iron - Key Clamp Railing [396122]
+    2300124: Railing Cast Iron - Key Clamp Railing [396122]_[199136]
+    2300126: Railing Cast Iron - Key Clamp Railing [396122]_[199136] 1
+    2300128: Railing Cast Iron - Key Clamp Railing [396122]_[199136] 2
+    2300130: Railing Cast Iron - Key Clamp Railing [396122]_[199136] 3
+    2300132: Railing Cast Iron - Key Clamp Railing [396122]_[199136] 4
+    2300134: Railing Cast Iron - Key Clamp Railing [396122]_[199136] 5
+    2300136: Railing Cast Iron - Key Clamp Railing [396122]_[199136] 6
+    2300138: Railing Cast Iron - Key Clamp Railing [396122]_[199136] 7
+    3300000: Assembled Stair Stair [394062]
+    3300002: Assembled Stair Stair [394456]
+    3300004: "Basic Roof Gen\xE9rico - 150 mm [395566]"
+    3300006: "Basic Wall Gen\xE9rico - 200 mm [378571]"
+    3300008: "Basic Wall Gen\xE9rico - 200 mm [378660]"
+    3300010: "Basic Wall Gen\xE9rico - 200 mm [378700]"
+    3300012: "Basic Wall Gen\xE9rico - 200 mm [378742]"
+    3300014: "Basic Wall Gen\xE9rico - 200 mm [378778]"
+    3300016: "Basic Wall Gen\xE9rico - 200 mm [394928]"
+    3300018: Fija 6 Paneles 1200 x 1500 mm [393598]
+    3300020: Fija 6 Paneles 1200 x 1500 mm [393668]
+    3300022: Floor 10 cm garage [394970]
+    3300024: Floor 15 cm int [391336]
+    3300026: Floor 15 cm mad [391303]
+    3300028: Floor 15 cm mad [394549]
+    3300030: M_Door-Opening 0915 x 2134mm [383082]
+    3300032: M_Door-Opening 0915 x 2134mm [391088]
+    3300034: M_Door-Opening 0915 x 2134mm [391119]
+    3300036: M_Door-Opening 0915 x 2134mm [391182]
+    3300038: M_Door-Opening 0915 x 2134mm [395080]
+    3300040: M_Door-Opening 0915 x 2134mm [395081]
+    3300042: M_Sliding with Trim 0915 x 1220mm [392282]
+    3300044: M_Sliding with Trim 0915 x 1220mm [392328]
+    3300046: M_Sliding with Trim 0915 x 1220mm [392395]
+    3300048: M_Sliding with Trim 0915 x 1220mm [392585]
+    3300050: M_Sliding with Trim 0915 x 1220mm [392618]
+    3300052: M_Sliding with Trim 0915 x 1220mm [392711]
+    3300054: M_Sliding with Trim 0915 x 1220mm [395052]
+    3300056: M_Sliding with Trim 0915 x 1220mm [395053]
+    3300058: M_Sliding with Trim 0915 x 1220mm [395054]
+    3300060: M_Sliding with Trim 0915 x 1220mm [395055]
+    3300062: M_Sliding with Trim 0915 x 1220mm [395056]
+    3300064: M_Sliding with Trim 0915 x 1220mm [395057]
+    3300066: M_Sliding with Trim 0915 x 1220mm [395134]
+    3300068: M_Sliding with Trim 0915 x 1220mm [395227]
+    3300070: M_Sliding with Trim 0915 x 1220mm [395529]
+    3300072: M_Sliding with Trim 0915 x 1220mm [395530]
+    3300074: M_Sliding with Trim 0915 x 1220mm [395562]
+    3300076: M_Sliding with Trim 0915 x 1220mm [395563]
+    3300078: Railing Cast Iron - Key Clamp Railing [394098]
+    3300080: Railing Cast Iron - Key Clamp Railing [394098]_[199136]
+    3300082: Railing Cast Iron - Key Clamp Railing [394098]_[394226]
+    3300084: Railing Cast Iron - Key Clamp Railing [394098]_[394307]
+    3300086: Railing Cast Iron - Key Clamp Railing [394098]_[394309]
+    3300088: Railing Cast Iron - Key Clamp Railing [394102]
+    3300090: Railing Cast Iron - Key Clamp Railing [394102]_[199136]
+    3300092: Railing Cast Iron - Key Clamp Railing [394102]_[394226]
+    3300094: Railing Cast Iron - Key Clamp Railing [394102]_[394307]
+    3300096: Railing Cast Iron - Key Clamp Railing [394102]_[394309]
+    3300098: Railing Cast Iron - Key Clamp Railing [395636]
+    3300100: Railing Cast Iron - Key Clamp Railing [395636]_[199136]
+    3300102: Railing Cast Iron - Key Clamp Railing [395636]_[199136] 1
+    3300104: Railing Cast Iron - Key Clamp Railing [395636]_[199136] 2
+    3300106: Railing Cast Iron - Key Clamp Railing [395636]_[199136] 3
+    3300108: Railing Cast Iron - Key Clamp Railing [395954]
+    3300110: Railing Cast Iron - Key Clamp Railing [395954]_[199136]
+    3300112: Railing Cast Iron - Key Clamp Railing [395954]_[199136] 1
+    3300114: Railing Cast Iron - Key Clamp Railing [395954]_[199136] 2
+    3300116: Railing Cast Iron - Key Clamp Railing [395954]_[199136] 3
+    3300118: Railing Cast Iron - Key Clamp Railing [395954]_[199136] 4
+    3300120: Railing Cast Iron - Key Clamp Railing [395954]_[199136] 5
+    3300122: Railing Cast Iron - Key Clamp Railing [396122]
+    3300124: Railing Cast Iron - Key Clamp Railing [396122]_[199136]
+    3300126: Railing Cast Iron - Key Clamp Railing [396122]_[199136] 1
+    3300128: Railing Cast Iron - Key Clamp Railing [396122]_[199136] 2
+    3300130: Railing Cast Iron - Key Clamp Railing [396122]_[199136] 3
+    3300132: Railing Cast Iron - Key Clamp Railing [396122]_[199136] 4
+    3300134: Railing Cast Iron - Key Clamp Railing [396122]_[199136] 5
+    3300136: Railing Cast Iron - Key Clamp Railing [396122]_[199136] 6
+    3300138: Railing Cast Iron - Key Clamp Railing [396122]_[199136] 7
+    4300000: "Basic Wall Gen\xE9rico - 200 mm [378571]"
+    4300002: "Basic Wall Gen\xE9rico - 200 mm [378660]"
+    4300004: "Basic Wall Gen\xE9rico - 200 mm [378700]"
+    4300006: "Basic Wall Gen\xE9rico - 200 mm [378742]"
+    4300008: "Basic Wall Gen\xE9rico - 200 mm [378778]"
+    4300010: M_Door-Opening 0915 x 2134mm [383082]
+    4300012: Floor 15 cm mad [391303]
+    4300014: Floor 15 cm int [391336]
+    4300016: M_Sliding with Trim 0915 x 1220mm [392282]
+    4300018: Fija 6 Paneles 1200 x 1500 mm [393598]
+    4300020: Assembled Stair Stair [394062]
+    4300022: Railing Cast Iron - Key Clamp Railing [394098]
+    4300024: Railing Cast Iron - Key Clamp Railing [394098]_[394309]
+    4300026: Railing Cast Iron - Key Clamp Railing [394098]_[394307]
+    4300028: Railing Cast Iron - Key Clamp Railing [394098]_[394226]
+    4300030: Railing Cast Iron - Key Clamp Railing [394098]_[199136]
+    4300032: Railing Cast Iron - Key Clamp Railing [394102]
+    4300034: Assembled Stair Stair [394456]
+    4300036: Floor 15 cm mad [394549]
+    4300038: "Basic Wall Gen\xE9rico - 200 mm [394928]"
+    4300040: Floor 10 cm garage [394970]
+    4300042: "Basic Roof Gen\xE9rico - 150 mm [395566]"
+    4300044: Railing Cast Iron - Key Clamp Railing [395636]
+    4300046: Railing Cast Iron - Key Clamp Railing [395954]
+    4300048: Railing Cast Iron - Key Clamp Railing [396122]
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
