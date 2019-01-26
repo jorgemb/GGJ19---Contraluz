@@ -5,22 +5,18 @@ using UnityEngine;
 public class MainPlayerController : MonoBehaviour
 {
     // Public data
-    public float velocity = 2.0f;
-    public bool enableJump = true;
-    public float jumpVelocity = 2.0f;
-    public KeyCode jumpKey = KeyCode.Space;
+    public float velocity = 30.0f;
 
     // Components
-    Rigidbody2D rb;
+    CharacterController charController;
 
     // Movement
     int collisionLayer;
-    bool canJump = false;
 
     void Start()
     {
-        // Get components
-        rb = GetComponent<Rigidbody2D>();
+        // Components
+        charController = GetComponent<CharacterController>();
 
         // Layers
         collisionLayer = LayerMask.GetMask("Floor");
@@ -28,26 +24,21 @@ public class MainPlayerController : MonoBehaviour
 
     void Update()
     {
-        // Calculate jump
-        float verticalVelocity = 0.0f;
-        if(canJump && Input.GetKey(jumpKey))
+        // Calculate motion
+        Vector2 xz_movement = new Vector2
         {
-            Debug.Log("JUMP!");
-            verticalVelocity = jumpVelocity;
-            canJump = false;
-        }
+            x = Input.GetAxis("Horizontal"),
+            y = Input.GetAxis("Vertical")
+        };
+        xz_movement = xz_movement.normalized * velocity;
 
-        Vector2 motion = new Vector2(velocity * Input.GetAxis("Horizontal"), rb.velocity.y + verticalVelocity);
-        rb.velocity = motion;
-    }
-
-    private void OnCollisionStay2D(Collision2D collision)
-    {
-        // Jumping logic
-        bool collisionWithFloor = ((1 << collision.gameObject.layer) & collisionLayer) > 0;
-        if (collisionWithFloor && enableJump)
+        Vector3 motion = new Vector3
         {
-            canJump = true;
-        }
+            x = xz_movement.x,
+            y = 0.0f,
+            z = xz_movement.y
+        };
+
+        charController.SimpleMove(motion * Time.deltaTime);
     }
 }
