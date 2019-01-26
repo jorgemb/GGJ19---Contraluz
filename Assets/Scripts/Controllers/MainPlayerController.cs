@@ -5,7 +5,7 @@ using UnityEngine;
 public class MainPlayerController : MonoBehaviour
 {
     // Public data
-    public float velocity = 30.0f;
+    public float velocity = 120.0f;
 
     // Components
     CharacterController charController;

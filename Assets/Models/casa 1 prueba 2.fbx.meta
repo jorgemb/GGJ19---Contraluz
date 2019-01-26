@@ -1,0 +1,247 @@
+fileFormatVersion: 2
+guid: fdf85890b8bb6ee44a8ade1dccb99957
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: casa 1.rvt
+    100004: Casework
+    100006: Cooktop_16245
+    100008: Dining_Table_amp_Chair_11036
+    100010: Doors
+    100012: Fija 6 Paneles
+    100014: Floors
+    100016: Furniture
+    100018: Generic Models
+    100020: M_Base Cabinet-4 Drawers
+    100022: M_Base Cabinet-Single Door w Sliding Drawers
+    100024: M_Counter Top-L Shaped w Sink
+    100026: M_Credenza
+    100028: M_Door-Opening
+    100030: M_Refrigerator
+    100032: M_Shelving
+    100034: M_Sink Kitchen-Single
+    100036: M_Sliding with Trim
+    100038: M_Sofa-Corbu
+    100040: M_Table-End
+    100042: Plumbing Fixtures
+    100044: Railings
+    100046: Roofs
+    100048: sectional_sofa_6482
+    100050: Specialty Equipment
+    100052: Stairs
+    100054: Walls
+    100056: Windows
+    100058: '{3D}'
+    100060: '{3D} 1'
+    400000: //RootNode
+    400002: casa 1.rvt
+    400004: Casework
+    400006: Cooktop_16245
+    400008: Dining_Table_amp_Chair_11036
+    400010: Doors
+    400012: Fija 6 Paneles
+    400014: Floors
+    400016: Furniture
+    400018: Generic Models
+    400020: M_Base Cabinet-4 Drawers
+    400022: M_Base Cabinet-Single Door w Sliding Drawers
+    400024: M_Counter Top-L Shaped w Sink
+    400026: M_Credenza
+    400028: M_Door-Opening
+    400030: M_Refrigerator
+    400032: M_Shelving
+    400034: M_Sink Kitchen-Single
+    400036: M_Sliding with Trim
+    400038: M_Sofa-Corbu
+    400040: M_Table-End
+    400042: Plumbing Fixtures
+    400044: Railings
+    400046: Roofs
+    400048: sectional_sofa_6482
+    400050: Specialty Equipment
+    400052: Stairs
+    400054: Walls
+    400056: Windows
+    400058: '{3D}'
+    400060: '{3D} 1'
+    2000000: '{3D}'
+    2000002: '{3D} 1'
+    2100000: Madera Marco puerta
+    2100002: Glass
+    2100004: Sash
+    2100006: Trim
+    2100008: Default material
+    2100010: Vidrio
+    2100012: chairleg-wood
+    2100014: chair-white fabric
+    2100016: Leather - Black
+    2100018: Metal - Chrome
+    2100020: Refrigerator - Body
+    2100022: Refrigerator - Doors
+    2100024: Fuochi
+    2100026: Laminate, Ivory, Matte
+    2100028: Birch
+    2100030: Steel, Chrome Plated
+    2100032: Cherry
+    2100034: frame trim
+    2100036: fabric 2
+    2100038: fabric
+    2100040: frame
+    2100042: Cabinets
+    2100044: Cabinets - Handles
+    2100046: Counter Top
+    2100048: Steel, Polished
+    2100050: Steel, Paint Finish, Ivory, Matte
+    2100052: Blanco Mate
+    2100054: Deck
+    2100056: Cementicio
+    2100058: "Asfalto, bet\xFAn"
+    2100060: Cast Iron
+    2300000: Cooktop_16245
+    2300002: Dining_Table_amp_Chair_11036
+    2300004: Fija 6 Paneles
+    2300006: Floors
+    2300008: M_Base Cabinet-4 Drawers
+    2300010: M_Base Cabinet-Single Door w Sliding Drawers
+    2300012: M_Counter Top-L Shaped w Sink
+    2300014: M_Credenza
+    2300016: M_Door-Opening
+    2300018: M_Refrigerator
+    2300020: M_Shelving
+    2300022: M_Sink Kitchen-Single
+    2300024: M_Sliding with Trim
+    2300026: M_Sofa-Corbu
+    2300028: M_Table-End
+    2300030: Railings
+    2300032: Roofs
+    2300034: sectional_sofa_6482
+    2300036: Stairs
+    2300038: Walls
+    3300000: Cooktop_16245
+    3300002: Dining_Table_amp_Chair_11036
+    3300004: Fija 6 Paneles
+    3300006: Floors
+    3300008: M_Base Cabinet-4 Drawers
+    3300010: M_Base Cabinet-Single Door w Sliding Drawers
+    3300012: M_Counter Top-L Shaped w Sink
+    3300014: M_Credenza
+    3300016: M_Door-Opening
+    3300018: M_Refrigerator
+    3300020: M_Shelving
+    3300022: M_Sink Kitchen-Single
+    3300024: M_Sliding with Trim
+    3300026: M_Sofa-Corbu
+    3300028: M_Table-End
+    3300030: Railings
+    3300032: Roofs
+    3300034: sectional_sofa_6482
+    3300036: Stairs
+    3300038: Walls
+    4300000: M_Door-Opening
+    4300002: M_Sliding with Trim
+    4300004: Fija 6 Paneles
+    4300006: Dining_Table_amp_Chair_11036
+    4300008: M_Sofa-Corbu
+    4300010: Cooktop_16245
+    4300012: M_Table-End
+    4300014: M_Shelving
+    4300016: M_Credenza
+    4300018: sectional_sofa_6482
+    4300020: M_Base Cabinet-4 Drawers
+    4300022: M_Base Cabinet-Single Door w Sliding Drawers
+    4300024: M_Counter Top-L Shaped w Sink
+    4300026: M_Sink Kitchen-Single
+    4300028: M_Refrigerator
+    4300030: Walls
+    4300032: Floors
+    4300034: Stairs
+    4300036: Railings
+    4300038: Roofs
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
