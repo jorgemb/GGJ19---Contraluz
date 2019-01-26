@@ -6,6 +6,8 @@ En una casa que en algún momento fue su hogar, encontramos a nuestro protagonis
 
 ## NARRATIVA
 El juego inicia con el protagonista ubicado en un cuarto dentro de una casa deteriorada/abandonada, con una fogata en el medio, siendo ésta una única fuente de luz que ilumina el cuarto donde se encuentra y parcialmente los cuartos adyacentes. En los primeros dos minutos, la fogata ilumina de manera fija el 100% de su capacidad. A partir del tercer minuto, la iluminación empieza a disminuir una razón de **0.42% por segundo**, llegándose a apagar en su totalidad a los **4 minutos**. 
+
+
 Inicialmente todas las puertas de la casa se encuentran abiertas, y el jugador puede explorar todas las habitaciones. En alguna habitación (cerca de la salida), existe un hacha, la cual se debe obtener para poder cortar los árboles o troncos abandonados fuera de la casa. 
 El jugador debe conseguir madera/leña suficiente para mantener la llama viva, dividiéndose en tres cantidades poca, media o máxima; dependiendo de la cantidad de madera que se consiga y se lleve a la fogata es la cantidad de minutos que se adiciona al tiempo de iluminación (1, 2 o 3), asumiendo que lo que tenga la fogata de tiempo restante se aproxima al minuto superior (i.e. 1:30 -> 2:00, 0:20 -> 1:00, 2:10 -> 3:00). Si la suma del tiempo restante y la leña a añadir sobrepasa los 4 minutos, se tomará como techo 4 minutos. 
 En caso la fogata se llegáse a extinguir por completo, el jugador debe recolectar, además de leña, instrumentos para encender de nuevo el fuego. No podrá únicamente añadir leña. Estos elementos se encontrarán en alguna habitación del sótano. 
