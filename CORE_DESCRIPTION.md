@@ -11,8 +11,14 @@ El juego inicia con el protagonista ubicado en un cuarto dentro de una casa dete
 Inicialmente todas las puertas de la casa se encuentran abiertas, y el jugador puede explorar todas las habitaciones. En alguna habitación (cerca de la salida), existe un hacha, la cual se debe obtener para poder cortar los árboles o troncos abandonados fuera de la casa. 
 El jugador debe conseguir madera/leña suficiente para mantener la llama viva, dividiéndose en tres cantidades poca, media o máxima; dependiendo de la cantidad de madera que se consiga y se lleve a la fogata es la cantidad de minutos que se adiciona al tiempo de iluminación (1, 2 o 3), asumiendo que lo que tenga la fogata de tiempo restante se aproxima al minuto superior (i.e. 1:30 -> 2:00, 0:20 -> 1:00, 2:10 -> 3:00). Si la suma del tiempo restante y la leña a añadir sobrepasa los 4 minutos, se tomará como techo 4 minutos. 
 En caso la fogata se llegáse a extinguir por completo, el jugador debe recolectar, además de leña, instrumentos para encender de nuevo el fuego. No podrá únicamente añadir leña. Estos elementos se encontrarán en alguna habitación del sótano. 
+
+
 A partir de la segunda vez que el jugador salga de la casa en busca de madera y regrese, empezará a escuchar sonidos de un monstruo proveniendo de una habitación en específico y se le dará la opción de bloquearla. De igual manera, cada vez que el personaje salga y regrese de la casa a partir de la segunda vez, los elementos dentro de la misma cambiaran de lugar, posición o forma para crear incertidumbre en el jugador. Esta mecánica se repetirá constantemente durante todo el juego.
+
+
 El sonido del monstruo provendrá únicamente de las habitaciones que no han sido bloqueadas aún hasta que el protagonista se quedé encerrado en el cuarto principal. En este momento, el tiempo restante de la fogata será modificado a 1:00 minuto y el sonido del monstruo provendrá de cualquiera de las dos puertas si el protagonista se acerca. 
+
+
 Al finalizar el minuto restante de la fogata luego que todas las puertas han sido bloqueadas, la pantalla quedará obscura (tenue) y el protagonista al acercarse a la puerta derecha, ya no escuchará al monstruo, sino que escuchará el sonido de hojas y viento, con la opción de desbloquear la puerta. Al desbloquear y salir por dicha puerta la pantalla se irá oscureciendo más hasta llegar a un negro total, en ese punto la música de ambiente irá disminuyendo hasta que únicamente se escucharán los pasos del protagonista, unos segundos de caminar en dicho sentido se irá iluminando de nuevo la pantalla y se descubrirá la entrada a un pueblo, que se convertirá en su nuevo hogar. 
 
 
