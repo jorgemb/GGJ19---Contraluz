@@ -2,7 +2,7 @@ Survival (Name pending)
 ========
 
 ## DESCRIPCION / HISTORIA
-En una casa que en algún momento fue su hogar, encontramos a nuestro protagonista abandonado con un única fuente de luz para iluminar su mundo. Su único objetivo es sobrevivir, pues esta escasa luz parece perder su brillo mientras transcurre el tiempo, y la oscuridad se apodera de todo a su paso. En un ambiente de tensión constante, nuestro protagonista deberá saber escoger sus batallas, y más importante aún, escoger sus enemigos; porque a veces, no son tus enemigos los que terminan acabando contigo, sino el miedo mismo de llamarlos enemigos. 
+En una casa que en algún momento fue su hogar, encontramos a nuestro protagonista abandonado con un única fuente de luz para iluminar su mundo. Su objetivo es sobrevivir, pues esta escasa luz parece perder su brillo mientras transcurre el tiempo, y la oscuridad se apodera de todo a su paso. En un ambiente de tensión constante, nuestro protagonista deberá saber escoger sus batallas, y más importante aún, escoger sus enemigos; porque a veces, no son tus enemigos los que terminan acabando contigo, sino el miedo mismo de llamarlos enemigos. 
 
 ## NARRATIVA
 El juego inicia con el protagonista ubicado en un cuarto dentro de una casa deteriorada/abandonada, con una fogata en el medio, siendo ésta una única fuente de luz que ilumina el cuarto donde se encuentra y parcialmente los cuartos adyacentes. En los primeros dos minutos, la fogata ilumina de manera fija el 100% de su capacidad. A partir del tercer minuto, la iluminación empieza a disminuir una razón de **0.42% por segundo**, llegándose a apagar en su totalidad a los **4 minutos**. 
