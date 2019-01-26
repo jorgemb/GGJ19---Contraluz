@@ -1,0 +1,297 @@
+fileFormatVersion: 2
+guid: 6cb6da506fa68e848a66c816395d0dbe
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: casa 1.rvt
+    100004: Casework
+    100006: Cooktop_16245
+    100008: Dining_Table_amp_Chair_11036
+    100010: Doors
+    100012: EN_Bed_and_2_bedside_tables_FR__Lit_avec_2_tables_de_chevets_17147
+    100014: Fija 6 Paneles
+    100016: Floors
+    100018: Furniture
+    100020: Generic Models
+    100022: M_Base Cabinet-4 Drawers
+    100024: M_Base Cabinet-Single Door w Sliding Drawers
+    100026: M_Chair-Executive
+    100028: M_Counter Top-L Shaped w Sink
+    100030: M_Credenza
+    100032: M_Desk
+    100034: M_Door-Opening
+    100036: M_Dresser
+    100038: M_Refrigerator
+    100040: M_RPC Tree - Conifer
+    100042: M_Shelving
+    100044: M_Sink Kitchen-Single
+    100046: M_Sliding with Trim
+    100048: M_Sofa-Corbu
+    100050: M_Table-End
+    100052: Planting
+    100054: Plumbing Fixtures
+    100056: Railings
+    100058: Roofs
+    100060: Runs
+    100062: sectional_sofa_6482
+    100064: Specialty Equipment
+    100066: Stairs
+    100068: Supports
+    100070: Topography
+    100072: Walls
+    100074: Windows
+    100076: '{3D}'
+    400000: //RootNode
+    400002: casa 1.rvt
+    400004: Casework
+    400006: Cooktop_16245
+    400008: Dining_Table_amp_Chair_11036
+    400010: Doors
+    400012: EN_Bed_and_2_bedside_tables_FR__Lit_avec_2_tables_de_chevets_17147
+    400014: Fija 6 Paneles
+    400016: Floors
+    400018: Furniture
+    400020: Generic Models
+    400022: M_Base Cabinet-4 Drawers
+    400024: M_Base Cabinet-Single Door w Sliding Drawers
+    400026: M_Chair-Executive
+    400028: M_Counter Top-L Shaped w Sink
+    400030: M_Credenza
+    400032: M_Desk
+    400034: M_Door-Opening
+    400036: M_Dresser
+    400038: M_Refrigerator
+    400040: M_RPC Tree - Conifer
+    400042: M_Shelving
+    400044: M_Sink Kitchen-Single
+    400046: M_Sliding with Trim
+    400048: M_Sofa-Corbu
+    400050: M_Table-End
+    400052: Planting
+    400054: Plumbing Fixtures
+    400056: Railings
+    400058: Roofs
+    400060: Runs
+    400062: sectional_sofa_6482
+    400064: Specialty Equipment
+    400066: Stairs
+    400068: Supports
+    400070: Topography
+    400072: Walls
+    400074: Windows
+    400076: '{3D}'
+    2000000: '{3D}'
+    2100000: Madera Marco puerta
+    2100002: Glass
+    2100004: Sash
+    2100006: Trim
+    2100008: Default material
+    2100010: Vidrio
+    2100012: chairleg-wood
+    2100014: chair-white fabric
+    2100016: Leather - Black
+    2100018: Metal - Chrome
+    2100020: Refrigerator - Body
+    2100022: Refrigerator - Doors
+    2100024: Fuochi
+    2100026: Laminate, Ivory, Matte
+    2100028: Birch
+    2100030: Steel, Chrome Plated
+    2100032: Cherry
+    2100034: Madera 2
+    2100036: fabric
+    2100038: fabric sheet
+    2100040: matress fabric
+    2100042: Laminate - Ivory, Glossy
+    2100044: Plastic, Opaque Black
+    2100046: Textile - Slate Blue
+    2100048: frame trim
+    2100050: fabric 2
+    2100052: frame
+    2100054: Cabinets
+    2100056: Cabinets - Handles
+    2100058: Counter Top
+    2100060: Steel, Polished
+    2100062: Steel, Paint Finish, Ivory, Matte
+    2100064: wall old
+    2100066: Blanco Mate
+    2100068: Deck
+    2100070: Cementicio
+    2100072: Concrete
+    2100074: mad 3
+    2100076: mad 4
+    2100078: Cast Iron
+    2100080: Teja
+    2100082: Grama
+    2300000: Cooktop_16245
+    2300002: Dining_Table_amp_Chair_11036
+    2300004: EN_Bed_and_2_bedside_tables_FR__Lit_avec_2_tables_de_chevets_17147
+    2300006: Fija 6 Paneles
+    2300008: Floors
+    2300010: M_Base Cabinet-4 Drawers
+    2300012: M_Base Cabinet-Single Door w Sliding Drawers
+    2300014: M_Chair-Executive
+    2300016: M_Counter Top-L Shaped w Sink
+    2300018: M_Credenza
+    2300020: M_Desk
+    2300022: M_Door-Opening
+    2300024: M_Dresser
+    2300026: M_Refrigerator
+    2300028: M_RPC Tree - Conifer
+    2300030: M_Shelving
+    2300032: M_Sink Kitchen-Single
+    2300034: M_Sliding with Trim
+    2300036: M_Sofa-Corbu
+    2300038: M_Table-End
+    2300040: Railings
+    2300042: Roofs
+    2300044: Runs
+    2300046: sectional_sofa_6482
+    2300048: Stairs
+    2300050: Supports
+    2300052: Topography
+    2300054: Walls
+    3300000: Cooktop_16245
+    3300002: Dining_Table_amp_Chair_11036
+    3300004: EN_Bed_and_2_bedside_tables_FR__Lit_avec_2_tables_de_chevets_17147
+    3300006: Fija 6 Paneles
+    3300008: Floors
+    3300010: M_Base Cabinet-4 Drawers
+    3300012: M_Base Cabinet-Single Door w Sliding Drawers
+    3300014: M_Chair-Executive
+    3300016: M_Counter Top-L Shaped w Sink
+    3300018: M_Credenza
+    3300020: M_Desk
+    3300022: M_Door-Opening
+    3300024: M_Dresser
+    3300026: M_Refrigerator
+    3300028: M_RPC Tree - Conifer
+    3300030: M_Shelving
+    3300032: M_Sink Kitchen-Single
+    3300034: M_Sliding with Trim
+    3300036: M_Sofa-Corbu
+    3300038: M_Table-End
+    3300040: Railings
+    3300042: Roofs
+    3300044: Runs
+    3300046: sectional_sofa_6482
+    3300048: Stairs
+    3300050: Supports
+    3300052: Topography
+    3300054: Walls
+    4300000: M_Door-Opening
+    4300002: M_Sliding with Trim
+    4300004: Fija 6 Paneles
+    4300006: Dining_Table_amp_Chair_11036
+    4300008: M_Sofa-Corbu
+    4300010: Cooktop_16245
+    4300012: M_Table-End
+    4300014: M_Shelving
+    4300016: M_Credenza
+    4300018: EN_Bed_and_2_bedside_tables_FR__Lit_avec_2_tables_de_chevets_17147
+    4300020: M_Dresser
+    4300022: M_Desk
+    4300024: M_Chair-Executive
+    4300026: sectional_sofa_6482
+    4300028: M_Base Cabinet-4 Drawers
+    4300030: M_Base Cabinet-Single Door w Sliding Drawers
+    4300032: M_Counter Top-L Shaped w Sink
+    4300034: M_Sink Kitchen-Single
+    4300036: M_Refrigerator
+    4300038: M_RPC Tree - Conifer
+    4300040: Walls
+    4300042: Floors
+    4300044: Stairs
+    4300046: Railings
+    4300048: Runs
+    4300050: Supports
+    4300052: Roofs
+    4300054: Topography
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
