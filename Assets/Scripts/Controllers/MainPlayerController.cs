@@ -79,14 +79,17 @@ public class MainPlayerController : MonoBehaviour
 
     private void OnControllerColliderHit(ControllerColliderHit hit)
     {
+        CollectableController collectable = hit.gameObject.GetComponent<CollectableController>();
+
         switch (hit.collider.tag)
         {
             case "Fire":
                 fireObject = hit.gameObject;
                 break;
             case "Wood":
-                firewood += 1;
-                hit.gameObject.GetComponent<WoodController>().CollectWood();
+                if(!collectable.collected)
+                    firewood += 1;
+                collectable.Collect();
                 break;
             default:
                 break;

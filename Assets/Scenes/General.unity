@@ -547,6 +547,16 @@ PrefabInstance:
       propertyPath: m_Intensity
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 8208101597003101407, guid: 7b9dfb40e9d142b46a42cb710f67d1fb,
+        type: 3}
+      propertyPath: startDelay
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8208101597003101407, guid: 7b9dfb40e9d142b46a42cb710f67d1fb,
+        type: 3}
+      propertyPath: dimPerSecond
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b9dfb40e9d142b46a42cb710f67d1fb, type: 3}
 --- !u!1001 &3896578970426562470
