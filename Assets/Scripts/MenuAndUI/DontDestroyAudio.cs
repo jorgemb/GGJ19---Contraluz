@@ -8,4 +8,13 @@ public class DontDestroyAudio : MonoBehaviour
     {
         DontDestroyOnLoad(transform.gameObject);
     }
+
+    public void Update()
+    {
+        /**if (FindObjectOfType(typeof(StartGameSound)))
+        {
+            Destroy(transform.gameObject);
+        }
+        return;**/
+    }
 }
