@@ -2,12 +2,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MainPlayerController : MonoBehaviour
 {
     // Public data
     public float velocity = 120.0f;
     public KeyCode actionKey = KeyCode.Space;
+    public KeyCode nextSceneKey = KeyCode.F10;
 
     // Inventory
     int axe = 0;
@@ -114,7 +116,8 @@ public class MainPlayerController : MonoBehaviour
 
     void UpdateHUD()
     {
-
+        if(Input.GetKeyDown(nextSceneKey))
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     private void CheckCollisions()
