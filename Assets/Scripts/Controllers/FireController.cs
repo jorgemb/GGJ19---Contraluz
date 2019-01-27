@@ -14,6 +14,9 @@ public class FireController : MonoBehaviour
     [Header("Fire Control")]
     [Range(0.0f, 3.0f)]
     public float fireIntensity = 3.0f;
+    public float fireVariation = 0.5f;
+
+    const float maxFire = 3.0f;
 
     // Components
     ParticleSystem particles;
@@ -27,17 +30,22 @@ public class FireController : MonoBehaviour
 
     void Update()
     {
+        float sin_result = Mathf.Sin(Time.time * changeVelocity);
+
         // Change fire
-        float fireRatio = fireIntensity / 3.0f;
+        float fireRatio = fireIntensity / maxFire;
         float realIntensityStart = fireRatio * intensityStart;
-        float fireStrength = fireRatio * 2.0f;
+
+        float fireStrength = Mathf.Clamp(fireRatio * 2.0f + (sin_result * fireVariation), 0.0f, maxFire);
+        if (fireIntensity == 0.0f)
+            fireStrength = 0.0f;
 
         var main = particles.main;
         main.startSize = fireStrength;
 
         // Change light
         if (fireIntensity > 0.0f)
-            childLight.intensity = Mathf.Clamp(Mathf.Sin(Time.time * changeVelocity) * intensityVariation + realIntensityStart + Random.Range(-flickerRange, flickerRange), 0.1f, 3.5f);
+            childLight.intensity = Mathf.Clamp(sin_result * intensityVariation + realIntensityStart + Random.Range(-flickerRange, flickerRange), 0.1f, 3.5f);
         else
             childLight.intensity = 0.0f;
     }
