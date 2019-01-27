@@ -16,8 +16,10 @@ public class FireController : MonoBehaviour
     public float fireIntensity = 3.0f;
     public float fireVariation = 0.5f;
 
-    public float startDelay = 120.0f;
+    public float dimmingStartDelay = 120.0f;
     public float dimPerSecond = 0.42f;
+
+    public float startFireDelay = 4.0f;
 
 
     const float maxFire = 3.0f;
@@ -41,12 +43,23 @@ public class FireController : MonoBehaviour
 
     void Update()
     {
+        var particleMain = particles.main;
+
+        // Check start delay
+        if(startFireDelay > 0.0f)
+        {
+            particleMain.startSize = 0.0f;
+            childLight.intensity = 0.0f;
+            startFireDelay -= Time.deltaTime;
+            return;
+        }
+
         // Check dimming
         if (!fireStartDim)
         {
             // Initial state
             fireTime += Time.deltaTime;
-            if (fireTime > startDelay) fireStartDim = true;
+            if (fireTime > dimmingStartDelay) fireStartDim = true;
         } else
         {
             fireIntensity -= dimPerSecond / 100.0f * Time.deltaTime;
@@ -64,8 +77,7 @@ public class FireController : MonoBehaviour
         if (fireIntensity == 0.0f)
             fireStrength = 0.0f;
 
-        var main = particles.main;
-        main.startSize = fireStrength;
+        particleMain.startSize = fireStrength;
 
         // Change light
         if (fireIntensity > 0.0f)

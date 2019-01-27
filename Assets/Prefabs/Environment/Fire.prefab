@@ -4720,6 +4720,9 @@ MonoBehaviour:
   flickerRange: 0.05
   fireIntensity: 3
   fireVariation: 0.2
+  dimmingStartDelay: 120
+  dimPerSecond: 0.42
+  startFireDelay: 2
 --- !u!65 &1833683598825499867
 BoxCollider:
   m_ObjectHideFlags: 0

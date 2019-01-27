@@ -27,6 +27,9 @@ public class MainPlayerController : MonoBehaviour
     Vector3 targetLookAt;
     float lookAtLerp = 0.0f;
 
+    bool canMove = true;
+    private GameObject treeObject;
+
     void Start()
     {
         // Components
@@ -48,6 +51,12 @@ public class MainPlayerController : MonoBehaviour
 
     void Update()
     {
+        // Check if movement is posible
+        if (anim.GetCurrentAnimatorStateInfo(0).IsTag("NoMove"))
+            canMove = false;
+        else
+            canMove = true;
+
         // Calculate motion
         Vector2 xz_movement = new Vector2
         {
@@ -64,11 +73,12 @@ public class MainPlayerController : MonoBehaviour
         };
 
         ResetCollisions();
-        charController.SimpleMove(motion * Time.deltaTime);
+        if(canMove)
+            charController.SimpleMove(motion * Time.deltaTime);
         CheckCollisions();
 
         // Update animation
-        if (motion.magnitude > 0)
+        if (motion.magnitude > 0 && canMove)
         {
             Vector3 characterLookAt = new Vector3
             {
@@ -91,7 +101,8 @@ public class MainPlayerController : MonoBehaviour
             characterTransform.LookAt(targetLookAt);
         }
 
-        if (charController.velocity.magnitude > 0)
+        float velocityEpsilon = 0.1f;
+        if (charController.velocity.magnitude > velocityEpsilon && canMove)
             anim.SetBool("Running", true);
         else
             anim.SetBool("Running", false);
@@ -116,6 +127,16 @@ public class MainPlayerController : MonoBehaviour
                 FireController fireController = fireObject.GetComponent<FireController>();
                 fireController.AddIntensity();
                 firewood -= 1;
+
+                // Set animation
+                anim.SetTrigger("Flint");
+            } else if (treeObject)
+            {
+                anim.SetTrigger("CutWood");
+                TreeController treeController = treeObject.GetComponent<TreeController>();
+                treeController.CutTree();
+
+                canMove = false;
             }
         }
     }
@@ -123,21 +144,24 @@ public class MainPlayerController : MonoBehaviour
     private void ResetCollisions()
     {
         fireObject = null;
+        treeObject = null;
     }
 
     private void OnControllerColliderHit(ControllerColliderHit hit)
     {
-        CollectableController collectable = hit.gameObject.GetComponent<CollectableController>();
-
         switch (hit.collider.tag)
         {
             case "Fire":
                 fireObject = hit.gameObject;
                 break;
             case "Wood":
+                CollectableController collectable = hit.gameObject.GetComponent<CollectableController>();
                 if(!collectable.collected)
                     firewood += 1;
                 collectable.Collect();
+                break;
+            case "Tree":
+                treeObject = hit.gameObject;
                 break;
             default:
                 break;

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Fire
   - Wood
+  - Tree
   layers:
   - Default
   - TransparentFX
