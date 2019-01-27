@@ -6,6 +6,13 @@ public class MainPlayerController : MonoBehaviour
 {
     // Public data
     public float velocity = 120.0f;
+    public KeyCode actionKey = KeyCode.Space;
+
+    // Inventory
+    int axe = 0;
+    int firewood = 0;
+    int flint = 0;
+    int food = 0;
 
     // Components
     CharacterController charController;
@@ -40,5 +47,10 @@ public class MainPlayerController : MonoBehaviour
         };
 
         charController.SimpleMove(motion * Time.deltaTime);
+    }
+
+    private void OnCollisionStay(Collision collision)
+    {
+        
     }
 }
