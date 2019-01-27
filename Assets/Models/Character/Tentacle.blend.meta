@@ -1,0 +1,206 @@
+fileFormatVersion: 2
+guid: fc4f30d9a9374534aa3087d57d590793
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Armature_001
+    100004: Armature_002
+    100006: Armature_003
+    100008: Armature_004
+    100010: Bone
+    100012: Bone_0
+    100014: Bone_001
+    100016: Bone_002
+    100018: Bone_003
+    100020: Bone_004
+    100022: Bone_005
+    100024: Bone_006
+    100026: Bone_1
+    100028: Bone_10
+    100030: Bone_11
+    100032: Bone_12
+    100034: Bone_13
+    100036: Bone_14
+    100038: Bone_15
+    100040: Bone_16
+    100042: Bone_17
+    100044: Bone_18
+    100046: Bone_19
+    100048: Bone_2
+    100050: Bone_20
+    100052: Bone_21
+    100054: Bone_22
+    100056: Bone_23
+    100058: Bone_24
+    100060: Bone_25
+    100062: Bone_26
+    100064: Bone_27
+    100066: Bone_3
+    100068: Bone_4
+    100070: Bone_5
+    100072: Bone_6
+    100074: Bone_7
+    100076: Bone_8
+    100078: Bone_9
+    100080: Cylinder
+    100082: Cylinder_001
+    100084: Cylinder_002
+    100086: Cylinder_003
+    100088: Cylinder_004
+    100090: Cylinder_005
+    100092: //RootNode
+    400000: Armature
+    400002: Armature_001
+    400004: Armature_002
+    400006: Armature_003
+    400008: Armature_004
+    400010: Bone
+    400012: Bone_0
+    400014: Bone_001
+    400016: Bone_002
+    400018: Bone_003
+    400020: Bone_004
+    400022: Bone_005
+    400024: Bone_006
+    400026: Bone_1
+    400028: Bone_10
+    400030: Bone_11
+    400032: Bone_12
+    400034: Bone_13
+    400036: Bone_14
+    400038: Bone_15
+    400040: Bone_16
+    400042: Bone_17
+    400044: Bone_18
+    400046: Bone_19
+    400048: Bone_2
+    400050: Bone_20
+    400052: Bone_21
+    400054: Bone_22
+    400056: Bone_23
+    400058: Bone_24
+    400060: Bone_25
+    400062: Bone_26
+    400064: Bone_27
+    400066: Bone_3
+    400068: Bone_4
+    400070: Bone_5
+    400072: Bone_6
+    400074: Bone_7
+    400076: Bone_8
+    400078: Bone_9
+    400080: Cylinder
+    400082: Cylinder_001
+    400084: Cylinder_002
+    400086: Cylinder_003
+    400088: Cylinder_004
+    400090: Cylinder_005
+    400092: //RootNode
+    2100000: Material_002
+    2100002: unnamed
+    4300000: Cylinder_005
+    4300002: Cylinder_003
+    4300004: Cylinder_002
+    4300006: Cylinder_004
+    4300008: Cylinder_001
+    4300010: Cylinder
+    7400000: Default Take
+    7400002: ArmatureAction
+    7400004: ArmatureAction_001
+    7400006: ArmatureAction_002
+    7400008: ArmatureAction_003
+    7400010: ArmatureAction_004
+    9500000: //RootNode
+    13700000: Cylinder
+    13700002: Cylinder_001
+    13700004: Cylinder_002
+    13700006: Cylinder_003
+    13700008: Cylinder_004
+    13700010: Cylinder_005
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

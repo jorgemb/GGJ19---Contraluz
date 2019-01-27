@@ -17,14 +17,33 @@ public class MainPlayerController : MonoBehaviour
 
     // Components
     CharacterController charController;
+    Animator anim;
+    Transform characterTransform;
 
     // Movement and collision
     GameObject fireObject = null;
+
+    Vector3 currentLookAt;
+    Vector3 targetLookAt;
+    float lookAtLerp = 0.0f;
 
     void Start()
     {
         // Components
         charController = GetComponent<CharacterController>();
+        anim = GetComponentInChildren<Animator>();
+
+        foreach (var transform in GetComponentsInChildren<Transform>())
+        {
+            if(transform.name == "CHAR")
+            {
+                characterTransform = transform;
+                break;
+            }
+        }
+
+        // Transformation
+        targetLookAt = characterTransform.forward;
     }
 
     void Update()
@@ -48,10 +67,39 @@ public class MainPlayerController : MonoBehaviour
         charController.SimpleMove(motion * Time.deltaTime);
         CheckCollisions();
 
+        // Update animation
+        if (motion.magnitude > 0)
+        {
+            Vector3 characterLookAt = new Vector3
+            {
+                x = -motion.x,
+                y = 0.0f,
+                z = -motion.z
+            };
+
+            if(targetLookAt == currentLookAt)
+            {
+                lookAtLerp += Time.deltaTime * 100.0f;
+                Mathf.Clamp01(lookAtLerp);
+            } else
+            {
+                targetLookAt = characterLookAt;
+                currentLookAt = characterTransform.forward;
+                lookAtLerp = 0.0f;
+            }
+
+            characterTransform.LookAt(targetLookAt);
+        }
+
+        if (charController.velocity.magnitude > 0)
+            anim.SetBool("Running", true);
+        else
+            anim.SetBool("Running", false);
 
         // HUD
         UpdateHUD();
     }
+
 
     void UpdateHUD()
     {
