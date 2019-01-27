@@ -6,7 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class SplashScreen : MonoBehaviour
 {
-    public float contador; 
+    public float contador;
+    public float onScreenTime = 5.0f;
 
     // Start is called before the first frame update
     void Start()
@@ -17,7 +18,7 @@ public class SplashScreen : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (contador > 5.0f)
+        if (contador > onScreenTime)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }

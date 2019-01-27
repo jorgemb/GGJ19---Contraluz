@@ -622,6 +622,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   contador: 0
+  onScreenTime: 7
 --- !u!1001 &1435447324
 PrefabInstance:
   m_ObjectHideFlags: 0
