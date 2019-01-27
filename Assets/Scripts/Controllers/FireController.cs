@@ -16,11 +16,22 @@ public class FireController : MonoBehaviour
     public float fireIntensity = 3.0f;
     public float fireVariation = 0.5f;
 
+    public float startDelay = 120.0f;
+    public float dimPerSecond = 0.42f;
+
+
     const float maxFire = 3.0f;
+    bool fireStartDim = false;
+    float fireTime = 0.0f;
 
     // Components
     ParticleSystem particles;
     Light childLight;
+
+    public void AddIntensity()
+    {
+        fireIntensity = Mathf.Clamp(fireIntensity + 1.0f, 0.0f, maxFire);
+    }
 
     void Start()
     {
@@ -30,6 +41,19 @@ public class FireController : MonoBehaviour
 
     void Update()
     {
+        // Check dimming
+        if (!fireStartDim)
+        {
+            // Initial state
+            fireTime += Time.deltaTime;
+            if (fireTime > startDelay) fireStartDim = true;
+        } else
+        {
+            fireIntensity -= dimPerSecond / 100.0f * Time.deltaTime;
+            fireIntensity = Mathf.Clamp(fireIntensity, 0.0f, maxFire);
+        }
+
+
         float sin_result = Mathf.Sin(Time.time * changeVelocity);
 
         // Change fire

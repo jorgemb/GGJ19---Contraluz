@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -17,16 +18,13 @@ public class MainPlayerController : MonoBehaviour
     // Components
     CharacterController charController;
 
-    // Movement
-    int collisionLayer;
+    // Movement and collision
+    GameObject fireObject = null;
 
     void Start()
     {
         // Components
         charController = GetComponent<CharacterController>();
-
-        // Layers
-        collisionLayer = LayerMask.GetMask("Floor");
     }
 
     void Update()
@@ -46,11 +44,52 @@ public class MainPlayerController : MonoBehaviour
             z = xz_movement.y
         };
 
+        ResetCollisions();
         charController.SimpleMove(motion * Time.deltaTime);
+        CheckCollisions();
+
+
+        // HUD
+        UpdateHUD();
     }
 
-    private void OnCollisionStay(Collision collision)
+    void UpdateHUD()
     {
-        
+
+    }
+
+    private void CheckCollisions()
+    {
+        if (Input.GetKeyDown(actionKey))
+        {
+            if (fireObject != null && firewood > 0)
+            {
+                // Add firewood to the fire
+                FireController fireController = fireObject.GetComponent<FireController>();
+                fireController.AddIntensity();
+                firewood -= 1;
+            }
+        }
+    }
+
+    private void ResetCollisions()
+    {
+        fireObject = null;
+    }
+
+    private void OnControllerColliderHit(ControllerColliderHit hit)
+    {
+        switch (hit.collider.tag)
+        {
+            case "Fire":
+                fireObject = hit.gameObject;
+                break;
+            case "Wood":
+                firewood += 1;
+                hit.gameObject.GetComponent<WoodController>().CollectWood();
+                break;
+            default:
+                break;
+        }
     }
 }
